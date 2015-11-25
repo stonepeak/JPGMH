@@ -1,0 +1,27 @@
+﻿生成启动时间为 2015/11/25 16:52:35。
+     1>项目“F:\JPGMH\JPGMH\JPGMH.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“F:\JPGMH\Release\”。
+       InitializeBuildStatus:
+         正在创建“Release\JPGMH.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MH.cpp
+         MH.cpp
+     1>MH.cpp(11): warning C4129: “J”: 不可识别的字符转义序列
+     1>MH.cpp(11): warning C4129: “J”: 不可识别的字符转义序列
+     1>MH.cpp(11): warning C4129: “p”: 不可识别的字符转义序列
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\JPGMH\Release\JPGMH.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d248.lib opencv_contrib248.lib opencv_core248.lib opencv_features2d248.lib opencv_flann248.lib opencv_gpu248.lib opencv_highgui248.lib opencv_imgproc248.lib opencv_legacy248.lib opencv_ml248d.lib opencv_objdetect248.lib opencv_ts248.lib opencv_video248.lib opencv_nonfree248.lib opencv_ocl248.lib opencv_photo248.lib opencv_stitching248.lib opencv_superres248.lib opencv_videostab248.lib opencv_calib3d248d.lib opencv_contrib248d.lib opencv_core248d.lib opencv_features2d248d.lib opencv_flann248d.lib opencv_gpu248d.lib opencv_highgui248d.lib opencv_imgproc248d.lib opencv_legacy248d.lib opencv_objdetect248d.lib opencv_ts248d.lib opencv_video248d.lib opencv_nonfree248d.lib opencv_ocl248d.lib opencv_photo248d.lib opencv_stitching248d.lib opencv_superres248d.lib opencv_videostab248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\JPGMH.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\JPGMH\Release\JPGMH.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\JPGMH\Release\JPGMH.lib" /MACHINE:X86 Release\MH.obj
+         正在生成代码
+         已完成代码的生成
+         JPGMH.vcxproj -> F:\JPGMH\Release\JPGMH.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\JPGMH\Release\JPGMH.exe;#1" /manifest Release\JPGMH.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\JPGMH.unsuccessfulbuild”。
+         正在对“Release\JPGMH.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\JPGMH\JPGMH\JPGMH.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.82
