@@ -23,7 +23,7 @@ bilateralFilter(src1,img,5,150,150);
 
 bilateralFilter(img,src1,5,150,150); //img.copyTo(src1);
 
-imshow("bilateral",src1);
+//imshow("bilateral",src1);
 
 waitKey(0);
 
@@ -34,7 +34,7 @@ Mat imgL; //第三个参数ddepth表示目标图像的深度，ddepth=-1时，与原图像一致
 
 Laplacian(src,imgL,-1,3,1);
 
-imshow("Laplacian",imgL);
+//imshow("Laplacian",imgL);
 
 waitKey(0); //细线
 
@@ -42,7 +42,7 @@ Mat imgC;
 
 Canny(src,imgC,30,90);
 
-imshow("Canny",imgC);
+//imshow("Canny",imgC);
 
 waitKey(0);
 
@@ -56,9 +56,9 @@ imgS=imgSx+imgSy;
 
 Sobel(src,imgS0,-1,1,1);
 
-imshow("Sobel0",imgS0);
+//imshow("Sobel0",imgS0);
 
-imshow("Sobel",imgS);
+//imshow("Sobel",imgS);
 
 waitKey(0);
 
@@ -83,7 +83,7 @@ cvtColor(imgTotal,imgTotalC3,CV_GRAY2BGR);
 
 bitwise_and(src1,imgTotalC3,src1); 
 
-imshow("Result",src1);
+//imshow("Result",src1);
 
 waitKey(0);
 
